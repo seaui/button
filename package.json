@@ -1,0 +1,33 @@
+{
+  "family": "seaui",
+  "name": "button",
+  "version": "1.0.0",
+  "description": "按钮可以完成很多工作。控制按钮状态或创建按钮组可以产生类似工具条之类的复杂组件。",
+  "homepage": "https://github.com/seaui/button",
+  "author": "chanh",
+  "maintainers": [
+    "chanh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seaui/button.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": {
+      "type": "MIT",
+      "url": "https://github.com/seaui/button/blob/master/LICENSE"
+  },
+  "spm": {
+    "output": [
+      "button.js"
+    ],
+    "alias": {
+        "$": "jquery/jquery/1.10.1/jquery"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}
