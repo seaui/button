@@ -4,18 +4,19 @@
   "version": "1.0.0",
   "description": "按钮可以完成很多工作。控制按钮状态或创建按钮组可以产生类似工具条之类的复杂组件。",
   "homepage": "https://github.com/seaui/button",
-  "author": "chanh",
+  "author": "chanh <seauijs@gmail.com>",
   "maintainers": [
     "chanh"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/seaui/button.git"
+    "url": "https://github.com/seaui/button"
   },
   "bugs": {
-    "url": ""
+    "email": "seauijs@gmail.com",
+    "url": "https://github.com/seaui/button/issues"
   },
-  "keywords": [],
+  "keywords": ["button", "seaui"],
   "licenses": {
       "type": "MIT",
       "url": "https://github.com/seaui/button/blob/master/LICENSE"
@@ -25,7 +26,8 @@
       "button.js"
     ],
     "alias": {
-        "$": "jquery/jquery/1.10.1/jquery"
+        "$": "jquery/jquery/1.10.1/jquery",
+        "base": "seaui/base/1.0.0/base.css"
     },
     "devAlias": {},
     "engines": {}

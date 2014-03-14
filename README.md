@@ -67,7 +67,9 @@
 通过JavaScript构建按钮：
 
 ```javascript
-$('.btn').button()
+seajs.use(['$','button'], function($,button) {
+    $('.btn').button()
+});
 ```
 
 ### 标记
@@ -83,17 +85,17 @@ $('.btn').button()
 > ### 自动切换
 > 可以使用`data-toggle`属性让按钮具有自动切换状态的能力。
 
-````html
+```html
 <button type="button" class="btn" data-toggle="button">...</button>
-````
+```
 
 #### $().button('loading')
 
 设置按钮状态为loading - 即将按钮置为禁用状态并将文字内容切换为loading。通过使用`data-loading-text`可以在按钮元素上定义loading文本。
 
-````html
+```html
 <button type="button" class="btn" data-loading-text="loading stuff...">...</button>
-````
+```
 
 > ### 跨浏览器兼容性
 > Firefox会在多个页面加载之间保持按钮的禁用状态。可以通过添加`autocomplete="off"`来解决提到的问题。
@@ -109,6 +111,8 @@ $('.btn').button()
 ````html
 <button type="button" class="btn" data-complete-text="finished!" >...</button>
 <script>
+seajs.use(['$','button'], function($,button) {
   $('.btn').button('complete')
+});
 </script>
 ````
