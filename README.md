@@ -2,6 +2,8 @@
 
 ---
 
+[![Build Status](https://travis-ci.org/seaui/button.svg?branch=develop)](https://travis-ci.org/seaui/button)
+
 按钮可以完成很多工作。控制按钮状态或创建按钮组可以产生类似工具条之类的复杂组件。
 
 ---
